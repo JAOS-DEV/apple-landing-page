@@ -141,7 +141,7 @@
   flex-direction: column;
   width: 100%;
   height: 80vh;
-  background: url("./images/iphone-12-hero-mobile.jpg");
+  background: url("../images/iphone-12-hero-mobile.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -183,7 +183,7 @@
 
 @media (min-width: 730px) {
   #iphone12 {
-    background: url("./images/iphone_12_medium.jpg");
+    background: url("../images/iphone_12_medium.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -206,7 +206,7 @@
 
 @media (min-width: 1000px) {
   #iphone12 {
-    background: url("./images/iphone_12_large.jpg");
+    background: url("../images/iphone_12_large.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; }
@@ -235,7 +235,7 @@
   flex-direction: column;
   width: 100%;
   height: 70vh;
-  background: url("/images/iphone-12-pro-hero-mobile.jpg");
+  background: url("../images/iphone-12-pro-hero-mobile.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -284,7 +284,7 @@
 
 @media (min-width: 730px) {
   #iphone12Pro {
-    background: url("/images/iphone-12-pro-hero-medium.jpg");
+    background: url("../images/iphone-12-pro-hero-medium.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -309,7 +309,7 @@
 
 @media (min-width: 1000px) {
   #iphone12Pro {
-    background: url("/images/iphone-12-pro-hero-large.jpg");
+    background: url("../images/iphone-12-pro-hero-large.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; }
@@ -335,7 +335,7 @@
   justify-content: flex-start;
   width: 100%;
   height: 70vh;
-  background: url("/images/hero-ipad-pro-mobile.jpg");
+  background: url("../images/hero-ipad-pro-mobile.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -376,7 +376,7 @@
 
 @media (min-width: 730px) {
   #ipadPro {
-    background: url("/images/hero-ipad-pro-medium.jpg");
+    background: url("../images/hero-ipad-pro-medium.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -394,7 +394,7 @@
 
 @media (min-width: 1000px) {
   #ipadPro {
-    background: url("/images/hero-ipad-pro-large.jpg");
+    background: url("../images/hero-ipad-pro-large.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; }
@@ -418,7 +418,7 @@
   width: 100%;
   height: 70vh;
   background-color: #b1dcec;
-  background: url("/images/uni-products-mobile.jpg");
+  background: url("../images/uni-products-mobile.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -451,7 +451,7 @@
 
 @media (min-width: 730px) {
   #uniSection {
-    background: url("/images/uni-products-medium.jpg");
+    background: url("../images/uni-products-medium.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -472,7 +472,7 @@
 
 @media (min-width: 1000px) {
   #uniSection {
-    background: url("/images/uni-products-large.jpg");
+    background: url("../images/uni-products-large.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -499,7 +499,7 @@
   flex-direction: column;
   width: 100%;
   height: 70vh;
-  background: url("/images/watch-series-6-mobile.jpg");
+  background: url("../images/watch-series-6-mobile.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -539,7 +539,7 @@
 
 @media (min-width: 730px) {
   #iwatchSection {
-    background: url("/images/watch-series-6-medium.jpg");
+    background: url("../images/watch-series-6-medium.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -554,7 +554,7 @@
 
 @media (min-width: 1000px) {
   #iwatchSection {
-    background: url("/images/watch-series-6-large.jpg");
+    background: url("../images/watch-series-6-large.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -579,7 +579,7 @@
   width: 100%;
   height: 70vh;
   margin-bottom: 35px;
-  background: url("/images/imac-mobile.jpg");
+  background: url("../images/imac-mobile.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -621,7 +621,7 @@
 
 @media (min-width: 730px) {
   #imacSection {
-    background: url("/images/imac-medium.jpg");
+    background: url("../images/imac-medium.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -636,7 +636,7 @@
 
 @media (min-width: 1000px) {
   #imacSection {
-    background: url("/images/imac-large.jpg");
+    background: url("../images/imac-large.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -660,7 +660,7 @@
   flex-direction: column;
   width: 100%;
   height: 70vh;
-  background: url("/images/apple_at_work_mobile.jpg");
+  background: url("../images/apple_at_work_mobile.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -682,7 +682,7 @@
 
 @media (min-width: 730px) {
   #appleAtWorkSection {
-    background: url("/images/apple_at_work_medium.jpg");
+    background: url("../images/apple_at_work_medium.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -696,7 +696,7 @@
 
 @media (min-width: 1000px) {
   #appleAtWorkSection {
-    background: url("/images/apple_at_work_large.jpg");
+    background: url("../images/apple_at_work_large.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -719,7 +719,7 @@
   flex-direction: column;
   width: 100%;
   height: 70vh;
-  background: url("/images/billie_eilish-mobile.jpg");
+  background: url("../images/billie_eilish-mobile.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -750,7 +750,7 @@
 
 @media (min-width: 730px) {
   #appleMusicSection {
-    background: url("/images/billie_eilish-medium.jpg");
+    background: url("../images/billie_eilish-medium.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -765,7 +765,7 @@
 
 @media (min-width: 1000px) {
   #appleMusicSection {
-    background: url("/images/billie_eilish-large.jpg");
+    background: url("../images/billie_eilish-large.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -790,7 +790,7 @@
   align-items: center;
   width: 100%;
   height: 70vh;
-  background: url("/images/ted_lasso_s2-mobile.jpg");
+  background: url("../images/ted_lasso_s2-mobile.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -800,7 +800,7 @@
     padding-top: 35px;
     width: 70px; }
   #appleTvSection .title {
-    background: url("/images/ted_lasso_title_s2-mobile.png");
+    background: url("../images/ted_lasso_title_s2-mobile.png");
     background-size: 248px 38px;
     background-repeat: no-repeat;
     background-position: center bottom 5px;
@@ -822,7 +822,7 @@
 
 @media (min-width: 730px) {
   #appleTvSection {
-    background: url("/images/ted_lasso_s2-medium.jpg");
+    background: url("../images/ted_lasso_s2-medium.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

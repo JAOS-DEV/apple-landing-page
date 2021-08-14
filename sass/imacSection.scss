@@ -7,7 +7,7 @@
   width: 100%;
   height: 70vh;
   margin-bottom: 35px;
-  background: url("/images/imac-mobile.jpg");
+  background: url("../images/imac-mobile.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -63,7 +63,7 @@
 //media queries
 @media (min-width: 730px) {
   #imacSection {
-    background: url("/images/imac-medium.jpg");
+    background: url("../images/imac-medium.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -87,7 +87,7 @@
 
 @media (min-width: 1000px) {
   #imacSection {
-    background: url("/images/imac-large.jpg");
+    background: url("../images/imac-large.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

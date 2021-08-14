@@ -7,7 +7,7 @@
   align-items: center;
   width: 100%;
   height: 70vh;
-  background: url("/images/ted_lasso_s2-mobile.jpg");
+  background: url("../images/ted_lasso_s2-mobile.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,7 +20,7 @@
   }
 
   .title {
-    background: url("/images/ted_lasso_title_s2-mobile.png");
+    background: url("../images/ted_lasso_title_s2-mobile.png");
     background-size: 248px 38px;
     background-repeat: no-repeat;
     background-position: center bottom 5px;
@@ -51,7 +51,7 @@
 //media queries
 @media (min-width: 730px) {
   #appleTvSection {
-    background: url("/images/ted_lasso_s2-medium.jpg");
+    background: url("../images/ted_lasso_s2-medium.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

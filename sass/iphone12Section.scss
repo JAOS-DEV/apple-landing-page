@@ -6,7 +6,7 @@
   flex-direction: column;
   width: 100%;
   height: 80vh;
-  background: url("/images/iphone-12-hero-mobile.JPG");
+  background: url("./images/iphone-12-hero-mobile.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -64,7 +64,7 @@
 //media queries
 @media (min-width: 730px) {
   #iphone12 {
-    background: url("/images/iphone_12_medium.jpg");
+    background: url("./images/iphone_12_medium.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -100,7 +100,7 @@
 
 @media (min-width: 1000px) {
   #iphone12 {
-    background: url("/images/iphone_12_large.jpg");
+    background: url("./images/iphone_12_large.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

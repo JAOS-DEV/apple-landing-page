@@ -1,0 +1,105 @@
+@import "./typography/typography.scss";
+
+#uniSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 70vh;
+  background-color: #b1dcec;
+  background: url("/images/uni-products-mobile.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 10px;
+
+  .title {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: $font-size-title-small;
+    font-weight: 500;
+    line-height: 1.2;
+    color: black;
+    text-align: center;
+    width: 100%;
+    max-width: 80%;
+  }
+
+  .links {
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+
+    .link {
+      text-decoration: none;
+      color: $link-clr-blue;
+      font-size: $font-size-link-small;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+//media queries
+// Make grid section
+@media (min-width: 730px) {
+  #uniSection {
+    background: url("/images/uni-products-medium.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    height: 490px;
+
+    .title {
+      top: 15%;
+      font-size: $font-size-title-small-grid;
+      font-weight: 600;
+      line-height: 1.1;
+      width: 90%;
+
+      br {
+        display: none;
+      }
+    }
+
+    .links {
+      top: 30%;
+
+      .link {
+        font-size: $font-size-link-small-grid;
+      }
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  #uniSection {
+    background: url("/images/uni-products-large.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 580px;
+
+    .title {
+      font-size: $font-size-title-small-grid;
+      font-weight: normal;
+      max-width: 400px;
+      font-weight: 600;
+    }
+
+    .links {
+      top: 25%;
+      .link {
+        font-size: $font-size-link-medium-grid;
+      }
+    }
+  }
+}

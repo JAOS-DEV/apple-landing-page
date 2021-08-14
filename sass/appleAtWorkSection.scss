@@ -1,0 +1,72 @@
+@import "./typography/typography.scss";
+
+#appleAtWorkSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 70vh;
+  background: url("/images/apple_at_work_mobile.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 10px;
+
+  .links {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 200px;
+    text-align: left;
+
+    .link {
+      text-decoration: none;
+      color: $link-clr-blue;
+      font-size: $font-size-link-small;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+//media queries
+@media (min-width: 730px) {
+  #appleAtWorkSection {
+    background: url("/images/apple_at_work_medium.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    height: 490px;
+
+    .links {
+      top: 68%;
+      left: 46%;
+      .link {
+        font-size: $font-size-link-small-grid;
+      }
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  #appleAtWorkSection {
+    background: url("/images/apple_at_work_large.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 580px;
+
+    .links {
+      top: 68%;
+      left: 39%;
+      .link {
+        font-size: $font-size-link-medium-grid;
+      }
+    }
+  }
+}

@@ -1,0 +1,97 @@
+@import "./typography/typography.scss";
+
+#appleTvSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 70vh;
+  background: url("/images/ted_lasso_s2-mobile.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 10px;
+  z-index: 1;
+
+  .apple-tv-logo {
+    padding-top: 35px;
+    width: 70px;
+  }
+
+  .title {
+    background: url("/images/ted_lasso_title_s2-mobile.png");
+    background-size: 248px 38px;
+    background-repeat: no-repeat;
+    background-position: center bottom 5px;
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    z-index: 10;
+  }
+
+  .links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 25px;
+
+    .link {
+      text-decoration: none;
+      color: white;
+      font-size: $font-size-link-small;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+//media queries
+@media (min-width: 730px) {
+  #appleTvSection {
+    background: url("/images/ted_lasso_s2-medium.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    height: 490px;
+
+    .title {
+      font-size: $font-size-title-small-grid;
+    }
+    .subText {
+      font-size: $font-size-subtext-small-grid;
+    }
+
+    .links {
+      .link {
+        font-size: $font-size-link-small-grid;
+      }
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  #appleTvSection {
+    background: url("/images/ted_lasso_s2-large.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 580px;
+
+    .title {
+      font-size: $font-size-title-medium-grid;
+    }
+    .subText {
+      font-size: $font-size-subtext-medium-grid;
+    }
+
+    .links {
+      .link {
+        font-size: $font-size-link-medium-grid;
+      }
+    }
+  }
+}

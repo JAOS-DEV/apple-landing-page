@@ -1,0 +1,113 @@
+@import "./typography/typography.scss";
+
+#iwatchSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 70vh;
+  background: url("/images/watch-series-6-mobile.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 10px;
+
+  .watch-logo {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 150px;
+  }
+
+  .subText {
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    font-size: $font-size-subtext-small;
+    color: white;
+    max-width: 90%;
+  }
+
+  // .price {
+  //   position: absolute;
+  //   top: 24%;
+  //   left: 50%;
+  //   transform: translate(-50%, -50%);
+  //   font-size: 16px;
+  //   text-align: center;
+  //   color: $text-clr-gray;
+  // }
+
+  .links {
+    position: absolute;
+    top: 29%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+
+    :nth-child(1) {
+      padding-right: 15px;
+    }
+
+    .link {
+      text-decoration: none;
+      color: $link-clr-blue;
+      font-size: $font-size-link-small;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+//media queries
+@media (min-width: 730px) {
+  #iwatchSection {
+    background: url("/images/watch-series-6-medium.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    height: 490px;
+
+    .links {
+      top: 30%;
+
+      .link {
+        font-size: $font-size-subtext-small-grid;
+      }
+    }
+
+    .subText {
+      font-size: $font-size-subtext-small-grid;
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  #iwatchSection {
+    background: url("/images/watch-series-6-large.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 580px;
+
+    .links {
+      top: 28%;
+      .link {
+        font-size: $font-size-link-medium-grid;
+      }
+    }
+
+    .subText {
+      font-size: $font-size-subtext-medium-grid;
+    }
+  }
+}

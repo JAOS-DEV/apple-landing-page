@@ -1,0 +1,129 @@
+@import "./typography/typography.scss";
+
+#iphone12 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 80vh;
+  background: url("/images/iphone-12-hero-mobile.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 45px;
+
+  .title {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: $font-size-title-small;
+    font-weight: 500;
+  }
+
+  .subText {
+    font-size: $font-size-subtext-small;
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .price {
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: $font-size-price-small;
+    text-align: center;
+    color: $text-clr-gray;
+  }
+
+  .links {
+    position: absolute;
+    top: 39%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    :nth-child(1) {
+      padding-right: 15px;
+    }
+
+    .link {
+      text-decoration: none;
+      color: $link-clr-blue;
+      font-size: $font-size-link-small;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+//media queries
+@media (min-width: 730px) {
+  #iphone12 {
+    background: url("/images/iphone_12_medium.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 86vh;
+
+    .title {
+      font-size: $font-size-title-medium;
+      top: 18%;
+    }
+
+    .subText {
+      font-size: $font-size-subtext-medium;
+      top: 26%;
+    }
+
+    .price {
+      font-size: $font-size-price-medium;
+      top: 34%;
+
+      br {
+        display: none;
+      }
+    }
+
+    .links {
+      top: 42%;
+      .link {
+        font-size: $font-size-link-medium;
+      }
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  #iphone12 {
+    background: url("/images/iphone_12_large.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .title {
+      font-size: $font-size-title-large;
+      top: 20%;
+    }
+
+    .subText {
+      font-size: $font-size-subtext-large;
+      top: 28%;
+    }
+
+    .price {
+      font-size: $font-size-price-large;
+    }
+
+    .links {
+      top: 40%;
+      .link {
+        font-size: $font-size-link-large;
+      }
+    }
+  }
+}

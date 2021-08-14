@@ -1,0 +1,85 @@
+@import "./typography/typography.scss";
+
+// accordion
+#accordionSection {
+  width: 100%;
+  padding-top: 20px;
+  margin: 20px auto 0px;
+  max-width: 920px;
+  justify-items: center;
+  border-top: 0.5px solid $text-clr-gray;
+
+  .accordion-item {
+    background-color: transparent;
+    border-bottom: 1px solid $text-clr-gray;
+
+    &-button {
+      border: 0;
+      display: block;
+      width: 100%;
+      color: #333336;
+      text-align: left;
+      font-size: 12px;
+      cursor: pointer;
+      background-color: transparent;
+      padding: 10px 0px;
+      position: relative;
+
+      &:after {
+        content: "+";
+        position: absolute;
+        right: 10px;
+        transition: all 0.5s;
+        font-size: 15px;
+      }
+
+      &.open {
+        &:after {
+          transform: rotate(45deg);
+        }
+      }
+    }
+
+    &-content {
+      display: none;
+      background-color: transparent;
+      transition: all 1.5s ease-in-out;
+
+      &.active {
+        display: block;
+      }
+
+      p {
+        padding: 1rem;
+      }
+    }
+
+    ul {
+      list-style-type: none;
+      margin-bottom: 10px;
+      padding-left: 10px;
+    }
+
+    li {
+      color: #1d1d1f;
+      font-size: 11px;
+      padding: 7px 0px;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+}
+
+//media queries
+// @media (min-width: 730px) {
+//   #accordionSection {
+//   }
+// }
+
+// @media (min-width: 1000px) {
+//   #accordionSection {
+//   }
+// }

@@ -47,15 +47,13 @@
   width: 100%; }
   .nav-bar-open-header {
     display: flex;
-    justify-content: space-between;
     padding: 12px 15px;
     width: 100%; }
     .nav-bar-open-header-button {
       width: 12px; }
     .nav-bar-open-header-logo {
-      margin-right: calc(50% + 4px);
-      width: 20px;
-      height: min-content; }
+      margin-left: 43%;
+      width: 20px; }
   .nav-bar-open-search {
     display: flex;
     justify-content: center;
@@ -142,6 +140,7 @@
   align-items: center;
   width: 100%;
   height: 80vh;
+  min-height: 500px;
   background: url("../images/iphone-12-hero-mobile.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -216,6 +215,7 @@
   align-items: center;
   width: 100%;
   height: 70vh;
+  min-height: 500px;
   background: url("../images/iphone-12-pro-hero-mobile.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -299,6 +299,7 @@
   align-items: center;
   width: 100%;
   height: 70vh;
+  min-height: 500px;
   background: url("../images/hero-ipad-pro-mobile.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -369,6 +370,7 @@
   align-items: center;
   width: 100%;
   height: 70vh;
+  min-height: 480px;
   background-color: #b1dcec;
   background: url("../images/uni-products-mobile.jpg");
   background-position: center;
@@ -445,6 +447,7 @@
   align-items: center;
   width: 100%;
   height: 70vh;
+  min-height: 480px;
   background: url("../images/watch-series-6-mobile.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -518,6 +521,7 @@
   align-items: center;
   width: 100%;
   height: 70vh;
+  min-height: 480px;
   margin-bottom: 35px;
   background: url("../images/imac-mobile.jpg");
   background-position: center;
@@ -591,6 +595,7 @@
   flex-direction: column;
   width: 100%;
   height: 70vh;
+  min-height: 480px;
   background: url("../images/apple_at_work_mobile.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -655,6 +660,7 @@
   align-items: center;
   width: 100%;
   height: 70vh;
+  min-height: 480px;
   background: url("../images/billie_eilish-mobile.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -725,6 +731,7 @@
   align-items: center;
   width: 100%;
   height: 70vh;
+  min-height: 480px;
   background: url("../images/ted_lasso_s2-mobile.jpg");
   background-position: center;
   background-repeat: no-repeat;
